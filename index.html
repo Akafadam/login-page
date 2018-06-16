@@ -17,6 +17,7 @@
      label {
       display:block;
       text-align:left;
+      color:gray;
      }
    </style>
   </head>
@@ -25,14 +26,13 @@
   	<div class="container-fluid">
   	  <h4 class="text-center p-5 mx-5">Intoduce your username and password to sign in,<br>if you don't have an account click <a href="">here</a> to create one.</h4>
     </div>
-    <form class="form-signin container py-2 pl-2 ml-2 my-5 w-25">
+    <form class="form-signin container py-2 pl-2 ml-2 my-5">
       <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
       <label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus><small>Introduce your email address or username</small>
+      <input class="w-25" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus><small> Introduce your email address or username</small>
       </label>
       <label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required><small>Introduce your password</small>
+      <input class="w-25" type="password" id="inputPassword" class="form-control" placeholder="Password" required><small> Introduce your password</small>
       <div></div>
       <div></div>
       <div class="checkbox mb-3">
@@ -40,7 +40,7 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <button class="btn btn-lg btn-primary btn-block w-25" type="submit">Sign in</button>
       <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
     </form>
   </body>
